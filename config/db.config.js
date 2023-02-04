@@ -4,7 +4,7 @@ const developmentInstance = {
   PASSWORD: 'Z0w4XVsTHU2Xr4zwnifb',
   DIALECT: 'mysql',
   HOST: 'containers-us-west-173.railway.app',
-  PORT : 7825,
+  PORT: 7825,
   POOL: {
     max: 5,
     min: 0,
@@ -13,6 +13,6 @@ const developmentInstance = {
   },
 };
 
-
-
-export const development = developmentInstance;
+module.exports = {
+  development: developmentInstance,
+};

@@ -1,6 +1,6 @@
 let sequelize = require('sequelize');
 let { DataTypes } = require('sequelize');
-let env = process.env.NODE_ENV || 'development';
+let env = 'development';
 let dbConfig = require('./../config/db.config')[env];
 
 let db = {};
