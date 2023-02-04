@@ -15,6 +15,4 @@ const developmentInstance = {
 
 
 
-module.exports = {
-     development : developmentInstance
-}
+export const development = developmentInstance;
