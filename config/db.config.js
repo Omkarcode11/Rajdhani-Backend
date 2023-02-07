@@ -1,12 +1,12 @@
 const developmentInstance = {
-  DB: 'rajdhani',
+  DB: 'railway',
   USER: 'root',
-  PASSWORD: 'omkar',
+  PASSWORD: 'Z0w4XVsTHU2Xr4zwnifb',
   DIALECT: 'mysql',
-  HOST: 'localhost',
-  // PORT: 7825,
+  HOST: 'containers-us-west-173.railway.app',
+  PORT: 7825,
   POOL: {
-    max: 10,
+    max: 5,
     min: 0,
     acquire: 30000,
     idle: 10000,

@@ -6,7 +6,7 @@ let db = require('./model/index');
 let router = require('./routes/index');
 const serverConfig = require('./config/server.confg');
 
-// db.connection.sync({alter:true})
+db.connection.sync({alter:true})
 
 app.use(cors())
 app.use(bodyParser.json());
